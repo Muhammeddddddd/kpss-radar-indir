@@ -36,7 +36,8 @@
     <p>Uygulama ilanları ve haberleri okumak için resmî kurum sitelerine (kamuilan.sbb.gov.tr, kariyerkapisi.gov.tr, iskur.gov.tr, resmigazete.gov.tr, yerelyonetimler.csb.gov.tr, ilan.gov.tr, osym.gov.tr), haber sitelerine ve KPSS Radar sunucusuna bağlanır. Bu isteklerde profil bilgilerin gönderilmez; sunucu yalnızca herkese açık ilan, haber ve ÖSYM kadro listelerini verir. Bağlandığın siteler, her internet bağlantısında olduğu gibi IP adresini kendi kayıtlarında tutabilir.</p>
 
     <h2>Bildirimler</h2>
-    <p>Son gün hatırlatıcıları ve yeni ilan bildirimleri telefonunda, telefonunun kendi bildirim sistemiyle kurulur. Bunun için bir hesap veya bildirim sunucusu kullanılmaz.</p>
+    <p>Son gün hatırlatıcıları telefonunda, telefonunun kendi bildirim sistemiyle kurulur.</p>
+    <p>Yeni ilan bildirimlerini açarsan anında bildirim için iki şey olur: (1) Telefonun, Google'ın bildirim servisi Firebase Cloud Messaging'den bir bildirim anahtarı alır ve tek bir ortak bildirim konusuna kaydolur; bu anahtar bizim sunucumuzda saklanmaz. (2) Telefonun resmî bir kaynakta yeni bir ilan bulursa, yalnızca o ilanın herkese açık bağlantısını sunucuya iletir; sunucu da diğer telefonlara "bu kaynağı şimdi kontrol et" sinyali gönderir. Bu sinyalde ve iletilen bağlantılarda profilin, puanın veya seni tanıtan bir bilgi yoktur. Hangi ilanın sana bildirileceğine telefonun kendi profiline göre karar verir.</p>
 
     <h2>Satın almalar</h2>
     <p>KPSS Radar Pro, Google Play üzerinden satılır. Ödeme ve fatura bilgilerin Google tarafından işlenir; geliştirici kart bilgilerini görmez. Satın almanın geçerli olduğunu doğrulamak için uygulama Google Play'e sorar.</p>
